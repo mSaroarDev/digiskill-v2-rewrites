@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "https://teamsaroar.vercel.app/$1"
+      "source": "/:match(.*)",
+      "destination": "https://teamsaroar.vercel.app/:match"
     }
   ]
 }
