@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:match(.*)",
-      "destination": "https://digiskill-v2.vercel.app/:match"
+      "destination": "https://digiskill-v2-frontend.vercel.app/:match"
     },
     {
       "source": "/api/:match(.*)",
